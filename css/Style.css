@@ -1,0 +1,153 @@
+body {
+    padding: 10px;
+    margin: 0px;
+    background-color: #FAF3E0;
+}
+
+header {
+    background-color: yellow;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f8f9fa;
+}
+
+header nav input[type="search"] {
+    padding: 5px;
+    width: 30%;
+    height: 30px;
+    border-radius: 5%;
+    outline: none;
+}
+
+header nav .Carrito {
+    display: flex;
+    width: -100px;
+    height: 60px;
+    padding-bottom: 10px;
+
+}
+
+header nav .Logo {
+    display: flex;
+    width: -100px;
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+header .menuprincipal {
+    display: flex;
+    justify-content: space-around;
+    /* Espacio uniforme entre los elementos */
+    padding: 20px 5%;
+    /* Relleno opcional */
+    background-color: #e9ecef;
+}
+
+.menuprincipal a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.menuprincipal a:hover {
+    color: #007bff;
+}
+
+.img_Menu img {
+    width: 100%;
+}
+
+/*Forma de div*/
+
+section .Pasos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+/* Clase para "Pasos"*/
+.paso {
+    padding: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+
+
+section h2 {
+    padding-top: 80px;
+    text-align: center;
+
+}
+
+section .Cursos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0px 190px;
+}
+.estiloscursos{
+    padding: 30px;
+    margin: 0px 40px;
+    background-color: #FF6F61;
+    color: white;
+    flex: 1;
+    border-radius: 50px;
+}
+
+button{
+    border-radius: 15px;
+    background-color: yellow;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #007bff;
+}
+
+
+section .Cursos2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 30px 190px;
+}
+
+
+footer {
+    padding-top: 10px;
+}
+
+footer .Nosotros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 30px;
+    gap: 30px;
+    background-color: aquamarine;
+}
+
+footer .Nosotros .paso2 {
+    background-color: brown;
+    padding: 20px;
+    color: white;
+    flex: 1;
+    text-align: center;
+}

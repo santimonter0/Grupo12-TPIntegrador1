@@ -1,0 +1,83 @@
+a {
+    text-decoration: none;
+}
+
+.titulo-texto-calendario {
+    margin-left: 2em;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo general del calendario */
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 0.25fr repeat(5, 8em);
+    width: 100%;
+    height: 100%;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo para las celdas de los días y la cabecera */
+.header,
+.day {
+    border: 0.1em solid #4d4d4d;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilo para la cabecera de los días de la semana */
+.header {
+    align-items: center;
+    background-color: #FF6F61;
+    font-weight: bold;
+    height: 100%;
+    font-size: 1.1em;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilo para los días del mes */
+.day {
+    background-color: #e9ecef;
+    font-size: 0.8em;
+}
+
+.link-curso {
+    display: inline-block;
+    /* Cambia a inline-block para que el enlace solo ocupe el espacio del contenido del párrafo */
+    text-decoration: none;
+    margin-top: 1em;
+}
+
+.texto_curso {
+    background-color: rgb(240, 240, 52);
+    color: black;
+    border-radius: 1em;
+    border: 0.1em black solid;
+    text-align: center;
+    padding: 0.5em 1em;
+    /* Añade padding para mejorar la apariencia y adaptabilidad */
+    display: flex;
+    /* Usamos flexbox para centrar el texto dentro del párrafo */
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    /* Elimina el margen para evitar desplazamientos inesperados */
+    max-width: 100%;
+    /* Limita el ancho máximo del párrafo para hacerlo más adaptable */
+    box-sizing: border-box;
+    /* Incluye el padding y border en el tamaño total */
+    cursor: pointer;
+    /* Cursor de mano al pasar sobre el botón */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil */
+    transition: background-color 0.3s;
+    /* Transición suave para el color de fondo */
+}
+
+.texto_curso:hover {
+    background-color: rgb(255, 255, 3); /* Cambio de color al pasar el ratón sobre el botón */
+}

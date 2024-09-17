@@ -1,0 +1,244 @@
+body{
+    padding: 10px;
+    margin: 0px;
+}
+
+header{
+    background-color: yellow;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+header nav input[type="search"]{
+    padding: 5px;
+    width: 30%;
+    height: 30px;
+    border-radius: 5%;
+    outline: none;
+}
+
+header nav .Carrito{
+    display: flex;
+    width: -100px;
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+header nav .Logo{
+    display: flex;
+    width: -100px;
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+.img_Menu img{
+    width: 100%;
+    
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 160px;
+}
+
+ul li .Columna1{
+    padding: 40px;
+    margin: 0px 20px;
+    background-color: blue;
+}
+
+ul li .Columna2{
+    padding: 40px;
+    margin: 0px 20px;
+    background-color: blue;
+}
+
+ul li .Columna3{
+    padding: 40px;
+    margin: 0px 20px;
+    background-color: blue;
+}
+
+section h2{
+    padding-top: 80px;
+    text-align: center;
+
+}
+
+section .Cursos{
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 190px; 
+}
+
+section .Cursos .C1{
+    padding: 30px;
+    margin: 0px 40px;
+    background-color: blue;
+}
+
+section .Cursos .C2{
+    padding: 30px;
+    margin: 0px 40px;
+    background-color: blue;
+}
+
+section .Cursos .C3{
+    padding: 30px;
+    margin: 0px 40px;
+    background-color: blue;
+}
+
+section .Cursos2{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-left: 190px;
+    padding-right: 190px;
+}
+
+section .Cursos2 .C4{
+    padding: 30px;
+    margin: 0px 40px;
+    background-color: blue;
+}
+
+section .Cursos2 .C5{
+    padding: 30px;
+    margin: 0px 40px;
+    background-color: blue;
+}
+
+section .Cursos2 .C6{
+    padding: 30px;
+    margin: 0px 40px;
+    background-color: blue;
+}
+
+.curso-detalle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.curso-imagen img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.curso-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.docente-detalle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.docente-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.docente-foto img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.clases-detalle {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+}
+
+.clase {
+    flex: 1 1 45%;
+    margin: 10px;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.clase h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.clase ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.clase li {
+    background-color: #fff;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.detalle-cursos {
+    margin-bottom: 30px;
+}
+
+.detalle-cursos h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.detalle-cursos-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.curso-relacionado {
+    flex: 1 1 30%;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-detalle {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-detalle:hover {
+    background-color: royalblue;
+}
+
+.btn-inscribirse{
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-inscribirse:hover {
+    background-color: royalblue;
+}

@@ -1,0 +1,166 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+.main .vista{
+    display: flex;
+    flex-direction: column;
+    height: 21em;
+    width: 23em;
+    background-image: url(../assets/fondosCard/fondo3.jpg);
+}
+
+.main .vista .vista__precio{
+    display: flex;
+    justify-content: flex-start;
+    height: 2em;
+    width: 5em;
+    background-color: rgb(10, 10, 10);
+}
+
+.main .vista .vista__precio .vista__precio--texto{
+    color: rgb(255, 255, 255);
+    margin: 0.5em;
+}
+
+.main .vista .vista__nombre-destinatario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4em;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.main .texto-referencia{
+   text-align: center;
+   width: 17em;
+   padding: 1em;
+}
+
+.main .formulario{
+    display: flex;
+    flex-direction: column;
+
+}
+
+ .main .formulario .formulario__colores{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+} 
+
+.main .formulario .formulario__colores .formulario__colores--color1{
+    background-color: black;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+}
+
+.main .formulario .formulario__colores .formulario__colores--color2{
+    background-color: rgb(146, 40, 146);
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+}
+
+.main .formulario .formulario__colores .formulario__colores--color3{
+    background-color: rgb(21, 101, 21);
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+}
+
+.main .formulario .formulario__colores .formulario__colores--color4{
+    background-color: rgb(4, 56, 223);
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+}
+.main .formulario .formulario__colores .formulario__colores--color4{
+    background-color: rgb(114, 111, 111);
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+}
+
+.main .formulario .seleccion-colores{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.main .formulario .tamanio-fuente{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+
+}
+.main .formulario .seleccion-tamanio{
+    display: flex;
+    flex-direction: row;
+    gap: 1.3em;
+}
+
+
+.main .formulario .formulario__ubicacion{
+    display: flex;
+    flex-direction: row;
+   gap: 1em;
+}
+
+
+.main .formulario .formulario__ubicacion .formulario__ubicacion--ubicacion1, .formulario__ubicacion--ubicacion2,.formulario__ubicacion--ubicacion3{
+    background-color: rgb(255, 255, 255);
+    height: 2em;
+    width: 2em;
+}
+.ubicacion1{
+    background-color: rgb(128, 128, 128);
+    height: 0.5em;
+    width: 0.8em;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.ubicacion2{
+    background-color: rgb(128, 128, 128);
+    height: 0.5em;
+    width: 0.8em;
+}
+
+.ubicacion3{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(128, 128, 128);
+    height: 0.5em;
+    width: 0.8em;
+
+
+}
+.main .formulario .seleccion-ubicacion{
+    display: flex;
+    flex-direction: row;
+    gap: 1.9em;
+
+}
+
+.main .formulario .formulario__fondo{
+    display: flex;
+    flex-direction: row;
+    gap: 1em
+}
+.main .formulario .formulario__fondo--fondo1, .formulario__fondo--fondo2, .formulario__fondo--fondo3, .formulario__fondo--fondo4{
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.main .formulario .seleccion-fondo{
+    display: flex;
+    flex-direction: row;
+    gap: 2.4em;
+}

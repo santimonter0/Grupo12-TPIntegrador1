@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago de Gift Card</title>
+    <link rel="stylesheet" href="../css/Style.css" />
+    <link rel="stylesheet" href="../css/pagoGiftCard.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="Logo">
+                <img src="../assets/icon/logo.jpg" alt="Logo">
+            </div>
+
+            <input type="search" placeholder="Buscar...">
+
+            <div class="Carrito">
+                <img src="../assets/image/carrito.png" alt="Carrito">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <form class="formularioPago" method="get" action="#">
+                <!--Cambiar la tipografia de los textos-->
+                <!--Ver ejemplos de redaccion-->
+                <!--Ver ejemplos de diseños-->
+                <div>
+                    <!--Agregar las imagenes-->
+                    <label for="mediosDePago" class="textos">Medio de pago</label>
+                    <input type="radio" name="Mastercard" id="mediosDePago" />
+                    <input type="radio" name="Visa" id="mediosDePago" />
+                    <input type="radio" name="American Express" id="mediosDePago">
+                </div>
+                <div>
+                    <label for="nombreDelTitular">Nombre completo del titular: </label>
+                    <input type="text" name="Nombre del titular" id="nombreDelTitular" placeholder="Nombre" required/>
+                    <input type="text" name="Apellido del titular" id="nombreDelTitular" placeholder="Apellido" required/>
+                </div>
+                <div>
+                    <label for="dniTitular">DNI del titular:</label>
+                    <input type="text" name="D.N.I del titular" id="dniTitular" placeholder="DNI" required/>
+                </div>
+                <div>
+                    <label for="numeroTarjeta">Número de tarjeta:</label>
+                    <input type="tex" name="Número de la tarjeta" id="numeroTarjeta" placeholder="Número de la tarjeta" required>
+                </div>
+                <div>
+                    <label for="codigoDeSeguridad">Código de seguridad:</label>
+                    <input type="text" name="Código de seguridad" id="codigoDeSeguridad"
+                        placeholder="Código de seguridad" required>
+                </div>
+                <div>
+                    <label for="fechaDeVencimiento">Fecha de Vencimiento:</label>
+                    <!--VER PARA PONER SOLO MES Y AÑO--> <input type="month" name="Fecha de vencimiento"
+                        id="fechaDeVencimiento" placeholder="mes" required>
+                </div>
+                <div>
+                    <label for="emailDestinatario">Email del destinatario:</label>
+                    <input type="email" name="email del destinatario" id="emailDestinatario"
+                        placeholder="Ingresar el email del destinatario" required>
+                </div>
+
+                <div>
+                    <button type="submit">
+                        Confirmar pago
+                    </button>
+                    <!--mensaje de pago realizado-->
+                    <button type="reset">
+                        Cancelar
+                    </button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

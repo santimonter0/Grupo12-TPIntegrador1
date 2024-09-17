@@ -1,0 +1,9 @@
+.section {
+    margin: 1em;
+}
+
+.section .formularioPago {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
