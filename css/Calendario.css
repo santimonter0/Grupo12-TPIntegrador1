@@ -52,7 +52,7 @@ a {
     margin-top: 1em;
 }
 
-.texto_curso {
+.boton-calendario {
     background-color: rgb(240, 240, 52);
     color: black;
     border-radius: 1em;
@@ -78,6 +78,6 @@ a {
     /* Transición suave para el color de fondo */
 }
 
-.texto_curso:hover {
+.boton-calendario:hover {
     background-color: rgb(255, 255, 3); /* Cambio de color al pasar el ratón sobre el botón */
 }
