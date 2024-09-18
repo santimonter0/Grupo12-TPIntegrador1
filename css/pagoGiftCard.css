@@ -1,9 +1,49 @@
-.section {
-    margin: 1em;
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
 }
 
-.section .formularioPago {
+
+.main .imagen-regalo{
+    width: 20em;
+}
+
+
+ .main .formulario-pago {
     display: flex;
     flex-direction: column;
-    row-gap: 1em;
+    row-gap: 0.8em;
+    padding-left: 1em;
+}
+.main .formulario-pago .formulario-pago__tarjetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 25em;
+}
+
+.main .formulario-pago .formulario-pago__tarjetas .formulario-pago__tarjetas--tarjeta1{
+    width: 2em;
+    height: 2em;
+}
+.main .formulario-pago .formulario-pago__tarjetas .formulario-pago__tarjetas--tarjeta2{
+    width: 3em;
+}
+.main .formulario-pago .formulario-pago__tarjetas .formulario-pago__tarjetas--tarjeta3{
+    width: 2.5em;
+    height: 1.9em;
+}
+
+.main .formulario-pago .formulario-pago__mercado-pago{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 20em;
+}
+
+.main .formulario-pago .formulario-pago__mercado-pago .formulario-pago__mercado-pago--c, .formulario-pago__mercado-pago--d{
+    width: 3.5em;
+    height: 3.5em;
 }
