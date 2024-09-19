@@ -46,8 +46,8 @@
     margin-right: 0.5em;
 }
 
-button.btn {
-    font-size: 1.1em; /* Font size for the button */
+a.btn {
+    font-size: 1.1em; /* Font size for the a */
     color: #ffffff;
     border: none;
     border-radius: 3px;
@@ -55,9 +55,10 @@ button.btn {
     padding: 0.5em 1em;
     cursor: pointer;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
-button.btn:hover {
+a.btn:hover {
     background-color: rgb(245, 166, 70);
     color: #000000;
 }

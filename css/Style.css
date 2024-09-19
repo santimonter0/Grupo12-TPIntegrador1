@@ -1,5 +1,5 @@
 body {
-    padding: 10px;
+    padding: 0px;
     margin: 0px;
     background-color: #FAF3E0;
 }
@@ -29,10 +29,17 @@ header nav input[type="search"] {
 
 header nav .Carrito {
     display: flex;
-    width: -100px;
     height: 60px;
-    padding-bottom: 10px;
+}
 
+header nav .Carrito img {
+    width: 35px;
+    height: 35px;
+    padding-top: 10px;
+}
+
+header nav .Carrito p{
+    padding-top: 10px;
 }
 
 header nav .Logo {
@@ -63,7 +70,9 @@ header .menuprincipal {
 }
 
 .img_Menu img {
-    width: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /*Forma de div*/

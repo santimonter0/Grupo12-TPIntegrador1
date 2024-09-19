@@ -45,6 +45,12 @@ a {
     font-size: 0.8em;
 }
 
+.day .today {
+    background-color: grey;
+    border-radius: 65%;
+    padding: 4px;
+}
+
 .link-curso {
     display: inline-block;
     /* Cambia a inline-block para que el enlace solo ocupe el espacio del contenido del párrafo */
